@@ -131,7 +131,9 @@ $conn->query($sql);
             ?>
           </tbody>
         </table>
-        <a href="export.php"><button type="button" class="btn btn-success"><i class="fa-solid fa-file-excel"></i> Exporteer naar Excel</button>
+        <form action="export.php">
+          <button class="btn btn-success"><i class="fa-solid fa-file-excel"></i> Exporteer naar Excel</button>
+        </form>
       </div>
     </div>
   </div>
